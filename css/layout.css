@@ -1,0 +1,39 @@
+app {
+    display: grid;
+    grid-template-columns: var(--header-height) auto var(--footer-height);
+    grid-template-rows: var(--header-height) auto var(--header-height);
+    grid-template-areas:
+        "header-left header-center header-right"
+        "main        main          main"
+        "footer      footer        footer";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*debug only*/
+* {
+    border: solid 1px;
+}
+
+history-control {
+    grid-area: header-left;
+}
+
+page-name {
+    grid-area: header-center;
+}
+
+context-menu {
+    grid-area: header-right;
+}
+
+main {
+    grid-area: main;
+}
+
+nav {
+    grid-area: footer;
+}
