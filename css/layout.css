@@ -1,39 +1,40 @@
 app {
-    display: grid;
-    grid-template-columns: var(--header-height) auto var(--footer-height);
-    grid-template-rows: var(--header-height) auto var(--header-height);
-    grid-template-areas:
-        "header-left header-center header-right"
-        "main        main          main"
-        "footer      footer        footer";
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-/*debug only*/
-* {
-    border: solid 1px;
+/* app header */
+
+app header {
+  display: flex;
+  height: 42px;
 }
 
-history-control {
-    grid-area: header-left;
+app header left {
+  width: 42px;
 }
 
-page-name {
-    grid-area: header-center;
+app header middle {
+  flex: 1;
 }
 
-context-menu {
-    grid-area: header-right;
+app header right {
+  width: 42px;
 }
 
-main {
-    grid-area: main;
+/* app main */
+
+app main {
+  flex: 1;
 }
 
-nav {
-    grid-area: footer;
+/* app footer */
+
+app footer {
+  height: 42px;
 }

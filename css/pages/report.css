@@ -1,0 +1,75 @@
+report {
+  display: flex;
+  flex-direction: column;
+
+  /* debug */
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* information */
+
+report information {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  position: relative;
+}
+
+report information actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+report information picture {
+  height: 120px;
+  display: block;
+}
+
+report information date {
+  height: 16px;
+}
+
+report information author {
+  height: 42px;
+}
+
+report information comment {
+  flex: 1;
+  overflow: auto;
+}
+
+/* entries */
+
+report entries {
+  display: flex;
+  flex-direction: column;
+}
+
+report entries entry {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+report entries entry actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* actions */
+
+report > actions {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 42px;
+}
