@@ -4,4 +4,7 @@
 
     --min-width: 320px;
     --min-height: 460px;
+
+    --text-global-color: #555;
+    --text-global-font: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Roboto", "Arial" ,sans-serif;
 }

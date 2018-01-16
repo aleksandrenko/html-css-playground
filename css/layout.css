@@ -31,6 +31,8 @@ app header right {
 
 app main {
   flex: 1;
+  position: relative;
+  overflow: hidden;
 }
 
 /* app footer */
