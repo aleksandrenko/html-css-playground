@@ -1,0 +1,19 @@
+categories {
+  display: flex;
+  flex-direction: column;
+}
+
+categories group picture img {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+categories group category {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+}
