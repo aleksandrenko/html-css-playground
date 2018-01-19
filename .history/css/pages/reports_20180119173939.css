@@ -1,0 +1,38 @@
+reports {
+  display: flex;
+  flex-direction: column;
+}
+
+reports report {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+reports report picture {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #333;
+}
+
+sub-header views {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+sub-header views view {
+  padding: 0.25rem;
+  width: 30%;
+  text-align: center;
+  background: #aaa;
+}
+
+sub-header views view['selected'] {
+  background: green;
+}
+
+sub-header views > * {
+  border: solid 1px;
+}

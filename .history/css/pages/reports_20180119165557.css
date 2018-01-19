@@ -1,0 +1,15 @@
+reports {
+  display: flex;
+  flex-direction: column;
+}
+
+reports report {
+  display: flex;
+  flex-direction: column;
+}
+
+reports report picture {
+  width: 42px;
+  height: 42px;
+  
+}

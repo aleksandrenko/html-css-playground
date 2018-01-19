@@ -1,0 +1,27 @@
+reports {
+  display: flex;
+  flex-direction: column;
+}
+
+reports report {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+reports report picture {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #333;
+}
+
+sub-header views {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+sub-header views * {
+  border: solid 1px;
+}
