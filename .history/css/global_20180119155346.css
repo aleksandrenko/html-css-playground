@@ -1,0 +1,26 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    min-height: var(--min-height);
+    min-width: var(--min-width);
+
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.428571429;
+    letter-spacing: -.032em;
+}
+
+* {
+    box-sizing: border-box;
+    display: block;
+}
+
+app {
+    font-family: var(--text-global-font);
+    color: var(--text-global-color);
+    background: white;
+    overflow-x: hidden;
+}

@@ -1,0 +1,71 @@
+app {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* app header */
+
+app header {
+  display: flex;
+  height: 42px;
+}
+
+app header left {
+  width: 42px;
+  justify-content: center;
+  align-items: center;
+}
+
+app header middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+app header middle page-name {
+  text-align: center;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+
+app header right {
+  width: 42px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* app main */
+
+app main {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+/* app footer */
+
+app footer {
+  height: 42px;
+  position: relative;
+}
+
+app footer nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+app footer nav a {
+  flex: 1;
+  text-align: center;
+}

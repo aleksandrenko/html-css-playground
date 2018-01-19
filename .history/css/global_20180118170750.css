@@ -1,0 +1,17 @@
+body {
+    min-height: var(--min-height);
+    min-width: var(--min-width);
+}
+
+* {
+    box-sizing: border-box;
+    display: block;
+}
+
+app {
+    font-family: var(--text-global-font);
+    font-size: 1rem;
+    color: var(--text-global-color);
+    background: white;
+
+}
