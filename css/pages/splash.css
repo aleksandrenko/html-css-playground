@@ -1,27 +1,25 @@
 splash {
-  padding: 2rem;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   background: url(./../../img/splash.png) repeat-x bottom center;
+  padding: 0.8rem;
 }
 
 splash h1 {
-  font-size: 3.2rem;
+  font-size: 1.7rem;
   font-weight: 100;
-  line-height: 0.85em;
   text-transform: uppercase;
-  padding-top: 2rem;
 }
 
 splash h2 {
-  font-size: 1.3rem;
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
   font-weight: 100;
-  margin-top: 1rem;
 }
 
 splash login-button {
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
